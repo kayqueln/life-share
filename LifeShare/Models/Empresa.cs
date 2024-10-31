@@ -11,7 +11,7 @@ namespace LifeShare.Models
     [Table("Tb_Empresa")]
     public class Empresa
     {
-
+    
         [Column("Id"),HiddenInput]
         public int EmpresaId { get; set; }
         [MaxLength(80)]
